@@ -4,26 +4,35 @@ p {
   }
   
   span {
-    font-size: 40px;
+    font-size: 120px;
   }
+  
+  /* Menggunakan properti text-align untuk mengatur penataan teks */
+  h1 {
+      margin: 0;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  }
+  p {
+      margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  right: -20%;
+  -ms-transform: translate(-50%, 0%);
+  transform: translate(-50%, -50%);
+  } 
   button {
-.container {
-  height: 200px;
-  position: relative;
-  border: 3px solid blue;
-}
-
-.center {
-  margin: 0;
+      margin: 0;
   position: absolute;
   top: 50%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-  }
-  
-  /* Menggunakan properti text-align untuk mengatur penataan teks */
+  transform: translate(-50%, -50%); 
+  } 
   div {
     text-align: center; /* Mengatur teks menjadi rata tengah */
   }
