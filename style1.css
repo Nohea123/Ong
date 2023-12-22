@@ -1,0 +1,30 @@
+
+p {
+    color: rgb(0, 0, 0);
+  }
+  
+  span {
+    font-size: 40px;
+  }
+  button {
+.container {
+  height: 200px;
+  position: relative;
+  border: 3px solid blue;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+  }
+  
+  /* Menggunakan properti text-align untuk mengatur penataan teks */
+  div {
+    text-align: center; /* Mengatur teks menjadi rata tengah */
+  }
+  

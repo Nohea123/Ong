@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+     @import "style1.css";
+    h1 {
+      color: blue;
+    }
+    p {
+      font-family: Arial;
+    }
+  </style>
+ 
+</head>
+<body style="background-image: url(https://i.postimg.cc/HsL8nx6Z/thankyou.png);">
+
+    <script>
+        function askName() {
+          var name = prompt("Masukkan nama Anda:"); // tampilkan pop up form untuk memasukkan nama
+          if (name) {
+            document.getElementById("letter").innerHTML = "<h1>Halo, " + name + 
+                "</h1><p>Terima kasih telah telah berbelanja di toko kami, kam mengajak anda untuk bergambung menjadi member kamu dengan mengubungi bla bla bla</p>"; // tampilkan surat dengan nama
+            document.getElementById("mas").style.display = "none";  
+        }
+        }
+      </script>
+    <button id="mas" onclick="askName()">Masukan nama</button> <!-- beri id pada tombol -->
+  <div id="letter"></div> <!-- tempat untuk menampilkan surat -->
+</body>
+</html>
